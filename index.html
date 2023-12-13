@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>iChat Messenger Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav>
+    <img class="logo" src="images/project6 logo1.png">
+    <h1>Welcome to iDiscuss Chat App</h1>
+  </nav>
+
+
+  <div class="container">
+    <div class="message right">
+      Aman: How are You.
+    </div>
+
+    <div class="message left">
+      Saurabh: I am Fine.
+      How are you.
+    </div>
+  </div>
+
+  <div class="send">
+    <form action="#" id="send-container">
+      <input type="text" name="messageInp" id="messageInp" placeholder="Message..">
+      <button class="btn" type="submit">Send</button>
+    </form>
+  </div>
+</body>
+
+<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+<script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+<script src="script.js"></script>
+</html>
