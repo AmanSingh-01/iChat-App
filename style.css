@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: linear-gradient(rgba(129,88,244,0.789), rgba(254,255,59,0.809));
+  height: 100vh;
+}
+
+nav h1 {
+  color: #000000;
+  text-shadow: 2px 2px #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.logo {
+  display: block;
+  margin: 5px auto;
+  width: 10%;
+}
+
+nav img {
+  filter: invert(0%);
+}
+
+.container {
+  box-shadow: 3px 3px #000000;
+  max-width: 80%;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  margin: auto;
+  height: 400px;
+  background-image: url('images/project3 bg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-y: auto;
+}
+
+.message {
+  background-color: rgba(0,0,0,0.172);
+  max-width: 70%;
+  max-height: 80%;
+  width: auto;
+  border-radius: 8px;
+  height: auto;
+  padding: 4px 8px;
+  margin: 5px 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.right {
+  float: right;
+  clear: both;
+  border: 2px solid #99caff;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 0px;
+}
+
+.left {
+  border: 2px solid #fe9191;
+  float: left;
+  clear: both;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+#send-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+}
+
+#send-container input {
+  border-radius: 5px;
+  width: 60%;
+  background: none;
+  height: 20px;
+  outline: none;
+  border: 2px solid black;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.btn {
+  border: 2px solid rgba(0,0,0,0.724);
+  margin: 8px;
+  margin-top: 16px;
+  padding: 3px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #0000000e;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #00000044;
+  border: 2px solid #ffffff;
+  outline: none;
+}
